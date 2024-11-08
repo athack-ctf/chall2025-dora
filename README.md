@@ -1,39 +1,35 @@
-# Chall - Your Challenge Title
+Dora The Explorer: Quest for the Quantum Treasure
 
-> A brief description of the challenge
+> The challenge is a storytelling-based staganography puzzle. It introduces participants to various staganographic techniques in a narrative that follows an AI version of Dora as she searches for the coordinates of a lost civilization.
 
 ## Type
 
 - [X] **OFF**line
 - [ ] **ON**line
 
-## Designer(s)
+## Designer
 
-- Ada Lovelace
-- Barbara Liskov
+- Little Squid
 
 ## Description
 
-A high-level overview intended to clarify the concept and intuition behind the challenge, outlining its educational
-goals and the skills it aims to test in participants.
+Participants will be given an image. In the image, there is a zip file. In the zip file, there are two audio files, one of which contains a hint and the other contains a Ceaser cipher of the flag which you can see through spectogram. 
+
+Educational Goals:
+(1) Participants will learn about image and audio steganography through techniques such as file extraction and spectogram analysis.
+(2) By encountering Caesar cipher text, partipants will develop foundational cryptographic decoding skills.
+
+Skills Test:
+(1) Participants will gain experience with Binwalk tool for extracting hidden files from the given image.
+(2) Using tools like Audacity, Sonic Visualiser, participants will learn to interpret spectogram data.
+(3) Basic Caesar cipher skills are tested to decode the extracted information.
+(4) Each hint directs participants to new tools and decoding strategies.
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
-## Category(ies)
+## Category
 
-- `pwn`
-- `re`
-- `web`
 - `stegano`
-- `env`
-- `crypto`
-- `osint`
-- `web3`
-- `ai`
-- `android`
-- `auto`
-- `misc`
-
 ---
 
 # Project Structure
@@ -46,7 +42,7 @@ goals and the skills it aims to test in participants.
 
 - **[source/README.md](source/README.md)**: Sufficient instructions for building your offline artifacts from source
   code. If your project includes multiple subprojects, please consult us (Anis and Hugo).
-- **[source/*](source/)**: Your source code.
+- **[source/*](source/)**: Your source code.`
 
 ## 3. Offline Artifacts
 
