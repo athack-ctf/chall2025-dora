@@ -1,11 +1,18 @@
 # Building Your Challenge
 
-The purpose of this directory is to provide a reproducible way of rebuilding your challenge.
+Found an image `a` on
+https://www.muralunique.com/product/jungle/
 
-- If your challenge can be programmatically rebuilt, treat this directory as the root of the source code.
+Created a hint audio by using FakeYou website
+https://fakeyou.com/weight/weight_nrqp1vqv1sqmw41kzw4abstas/dora-the-explorer
 
-- If your process is mainly manual, then it should be documented, along with all necessary files.
+Generated Ceaser cipher text based on the flag.
 
-- If you have used a special tool (e.g., a file encoding tool) to build the challenge, it should be documented as well.
+Created another audio file using website
+https://signals.nitrocosm.com/go/spectrum_text/  
+to encode cipher text in its spectogram.
 
-- For any clarifications, consult us (Anis and Hugo).
+Put both recordings in the treasureChest folder and zipped it.
+
+Created image `b`, which has the zip file embedded in image `a`, by running the following command:
+`$ cat a.jpeg treasureChest.zip > b.jpeg`
