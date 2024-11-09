@@ -1,10 +1,6 @@
 The description of your challenge as seen by participants in CTFd. Try to make it feel within the theme
 of the event...
 
----
-If your challenge is a multi-flag one (i.e., it consists of a sequence of sub-challenges each rewarded with
-its own flag), requiring a different description for each sub-challenge, then have your descriptions split as 
-done with this paragraph, and the next one.
+Hi! My name is Dora. You will be my assistant 'Dora 0.1'. Can you help me find the lost civilization I have been looking for?
 
----
-Obviously, for each sub-challenge, you should provide its flag value in [solution/FLAGS.md](solution/FLAGS.md).
+`[Jungle.jpeg]`

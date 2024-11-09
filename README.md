@@ -4,8 +4,7 @@ Dora The Explorer: Quest for the Quantum Treasure
 
 ## Type
 
-- [X] **OFF**line
-- [ ] **ON**line
+- [x] **OFF**line
 
 ## Designer
 
@@ -13,7 +12,7 @@ Dora The Explorer: Quest for the Quantum Treasure
 
 ## Description
 
-Participants will be given an image. In the image, there is a zip file. In the zip file, there are two audio files, one of which contains a hint and the other contains a Ceaser cipher of the flag which you can see through spectogram. 
+Participants will be given an image. In the image, there is a zip file. In the zip file, there are two audio files, one of which contains a hint and the other contains a Ceaser cipher of the flag which you can see through spectogram.
 
 Educational Goals:
 (1) Participants will learn about image and audio steganography through techniques such as file extraction and spectogram analysis.
@@ -30,6 +29,7 @@ Skills Test:
 ## Category
 
 - `stegano`
+
 ---
 
 # Project Structure
@@ -42,11 +42,11 @@ Skills Test:
 
 - **[source/README.md](source/README.md)**: Sufficient instructions for building your offline artifacts from source
   code. If your project includes multiple subprojects, please consult us (Anis and Hugo).
-- **[source/*](source/)**: Your source code.`
+- **[source/\*](source/)**: Your source code.`
 
 ## 3. Offline Artifacts
 
-- **[offline-artifacts/*](offline-artifacts/)**: All files (properly named) intended for local download by
+- **[offline-artifacts/\*](offline-artifacts/)**: All files (properly named) intended for local download by
   participants (e.g., a binary executable for reverse engineering, a custom-encoded image, etc.). For large files (
   exceeding 100 MB), please consult us (Anis and Hugo).
 
@@ -54,5 +54,5 @@ Skills Test:
 
 - **[solution/README.md](solution/README.md)**: A detailed writeup of the working solution.
 - **[solution/FLAGS.md](solution/FLAGS.md)**: A single markdown file listing all (up-to-date) flags.
-- **[solution/*](solution/)**: Any additional files or code necessary for constructing a reproducible solution for the
-  challenge (e.g., `PoC.py`, `requirement.txt`, etc.). 
+- **[solution/\*](solution/)**: Any additional files or code necessary for constructing a reproducible solution for the
+  challenge (e.g., `PoC.py`, `requirement.txt`, etc.).

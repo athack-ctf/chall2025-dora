@@ -1,10 +1,9 @@
 # How to Solve the Challenge?
 
-Provide reproducible steps to solve the challenge. This can include:
+`$ binwalk -e 'Jungle.jpeg'`
 
-- Runnable code (e.g., `PoC.py`)
-- A Bash script or a sequence of commented commands
-- Well-explained instructions
-- ...
+Get two audio files which are in treasureChest folder.
 
-Ensure that all dependencies required to build or run the solution are provided (e.g., `requirements.txt`) or thoroughly documented.
+Use tools such as Audacity, Sonic Visualizer to be able to see Caesar cipher text in the spectogram.
+
+Convert the Caesar cipher text(shifted by 3) to plain text to get the flag.
