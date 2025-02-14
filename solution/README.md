@@ -1,6 +1,6 @@
 # How to Solve the Challenge?
 
-`$ binwalk -e 'Jungle.jpeg'`
+`binwalk -e Jungle.jpeg`
 
 Get two audio files which are in treasureChest folder.
 
