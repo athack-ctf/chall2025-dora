@@ -1,4 +1,4 @@
-Dora The Explorer: Quest for the Quantum Treasure
+# Chall - Dora The Explorer: Quest for the Quantum Treasure
 
 > The challenge is a storytelling-based staganography puzzle. It introduces participants to various staganographic techniques in a narrative that follows an AI version of Dora as she searches for the coordinates of a lost civilization.
 
