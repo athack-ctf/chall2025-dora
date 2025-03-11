@@ -1,0 +1,24 @@
+name: "Dora"
+author: "Chit Chit"
+category: Stegano
+description: |
+    Hi! My name is Dora. You will be my assistant 'Dora 0.1'. Can you help me find the lost civilization I have been looking for?
+    
+value: 50
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{YOU_FOUND_TH3_COORDINAT3S}"
+    data: "case_insensitive"
+
+tags:
+ - beginner
+
+files:
+    - offline-artifacts/Jungle.jpeg
+
+state: visible
+
+version: "0.1"
